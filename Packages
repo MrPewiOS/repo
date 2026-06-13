@@ -8,8 +8,8 @@ Maintainer: MrPewiOS
 Section: Tweaks
 Depends: mobilesubstrate
 Installed-Size: 64
-Depiction: https://mrpewios.github.io/infodebs/depiction.html
-SileoDepiction: https://mrpewios.github.io/infodebs/depiction.json
+Depiction: https://mrpewios.github.io/depictions/vcam.html
+SileoDepiction: https://mrpewios.github.io/sileodepictions/vcam.json
 Filename: ./debs/debs/com.libkrw.vcamleak_1.0-6+debug_iphoneos-arm64.deb
 Size: 65536
 MD5sum: 6b45768acd40097ce0c0cb9cdd877e90
