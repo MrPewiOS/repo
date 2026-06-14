@@ -1,21 +1,3 @@
-Package: com.libkrw.vcamleak_1.0-6+debug_iphoneos-arm64
-Name: Vcam
-Version: 1.0-1+debug
-Architecture: iphoneos-arm64
-Description: Vcam - Fake camera iphone của bạn
-Author: MrPewiOS
-Maintainer: MrPewiOS
-Section: Tweaks
-Depends: mobilesubstrate
-Installed-Size: 64
-Depiction: https://mrpewios.github.io/depictions/vcam.html
-SileoDepiction: https://mrpewios.github.io/sileodepictions/vcam.json
-Filename: ./debs/com.libkrw.vcamleak_1.0-6+debug_iphoneos-arm64.deb
-Size: 63550
-MD5sum: 6b45768acd40097ce0c0cb9cdd877e90
-SHA1: 50772208643ef59cde5b67238aac2ba7e15b1f02
-SHA256: 41d12bae3e964f276deec92413cf546b127bc035b24025707136eaa4dbff6711
-
 Package: com.mrpewios.zonevh_1.3.0_iphoneos-arm64e
 Name: Zone VH (Roothide)
 Version: 1.3.0
