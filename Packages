@@ -15,3 +15,21 @@ Size: 63550
 MD5sum: 6b45768acd40097ce0c0cb9cdd877e90
 SHA1: 50772208643ef59cde5b67238aac2ba7e15b1f02
 SHA256: 41d12bae3e964f276deec92413cf546b127bc035b24025707136eaa4dbff6711
+
+Package: com.mrpewios.zonevh_1.3.0_iphoneos-arm64e
+Name: Zone VH (Roothide)
+Version: 1.3.0
+Architecture: iphoneos-arm64e
+Description: Tiện ích Zone được sử dụng để thiết lập hình nền/video tương tác dạng .tendies 
+Author: iosdumpzzz
+Maintainer: iosdumpzzz
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Installed-Size: 976
+Depiction: https://mrpewios.github.io/depictions/zone.html
+SileoDepiction: https://mrpewios.github.io/sileodepictions/zone.json
+Filename: ./debs/com.mrpewios.zonevh_1.3.0_iphoneos-arm64e.deb
+Size: 166968
+MD5sum: 0b0ba535528571f7e4cc7ea5ea04c46f
+SHA1: 6a4cf2a09f97556fc3630eaceb181203793102a3
+SHA256: 3efdaf2fd59fe455bc2ecbb56519d87a6f51dd54d6a7abde71531a328d27e893
