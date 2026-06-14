@@ -33,3 +33,21 @@ Size: 166968
 MD5sum: 0b0ba535528571f7e4cc7ea5ea04c46f
 SHA1: 6a4cf2a09f97556fc3630eaceb181203793102a3
 SHA256: 3efdaf2fd59fe455bc2ecbb56519d87a6f51dd54d6a7abde71531a328d27e893
+
+Package: com.mrpewios.zonevh_1.3.0_iphoneos-arm64
+Name: Zone VH (Rootless)
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Description: Tiện ích Zone được sử dụng để thiết lập hình nền/video tương tác dạng .tendies 
+Author: iosdumpzzz
+Maintainer: iosdumpzzz
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Installed-Size: 984
+Depiction: https://mrpewios.github.io/depictions/zone(rootless).html
+SileoDepiction: https://mrpewios.github.io/sileodepictions/zonerootless.json
+Filename: ./debs/com.mrpewios.zonevh_1.3.0_iphoneos-arm64.deb
+Size: 168428
+MD5sum: 7e16e01b56407a19c58bfcdbc0f217cf
+SHA1: e23a8a86359261b58c5013ba01ec42345411aec3
+SHA256: a4402f38a7f078789a2d62f2619bb57c921798f854a1bd7f3eb0390cd26ffcaa
