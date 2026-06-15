@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CustomCCBg VH</title>
+  <style>
+    :root {
+      --bg: #0d0d0f;
+      --card: #18181c;
+      --border: #2a2a30;
+      --accent: #007AFF;
+      --text: #f0f0f5;
+      --muted: #888899;
+      --radius: 14px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, 'SF Pro Text', sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      padding-bottom: 40px;
+    }
+
+    /* ── BANNER TOP ── */
+    .banner-container {
+      width: 100%;
+      overflow: hidden;
+      /* Bo nhẹ 2 góc bên dưới để tạo hiệu ứng mượt như giao diện Sileo gốc */
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+      border: 1px solid var(--border);
+      border-top: none;
+    }
+    .banner-container img {
+      width: 100%;
+      height: auto;
+      max-height: 200px; /* Chiều cao tối đa tránh ảnh bị quá dài */
+      display: block;
+      object-fit: cover;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(160deg, #001a33 0%, #0d0d0f 60%);
+      padding: 24px 20px 28px; /* Giảm padding trên một chút cho cân đối với banner */
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+    .hero-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, #007AFF, #00c6fb);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      flex-shrink: 0;
+      box-shadow: 0 4px 20px rgba(0,122,255,0.4);
+    }
+    .hero-info h1 {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.4px;
+    }
+    .hero-info p {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 3px;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(0,122,255,0.18);
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 9px;
+      border-radius: 20px;
+      margin-top: 6px;
+      letter-spacing: 0.2px;
+    }
+
+    /* ── SCREENSHOTS ── */
+    .screenshots-wrap {
+      overflow-x: auto;
+      padding: 20px 20px 4px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .screenshots-wrap::-webkit-scrollbar { display: none; }
+    .screenshots {
+      display: flex;
+      gap: 12px;
+    }
+    .screenshots img {
+      height: 260px;
+      width: auto;
+      border-radius: 12px;
+      object-fit: cover;
+      border: 1px solid var(--border);
+      flex-shrink: 0;
+      background: var(--card);
+    }
+
+    /* ── SECTION ── */
+    .section {
+      margin: 20px 16px 0;
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .section-header {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding: 14px 16px 8px;
+    }
+    .desc-body {
+      padding: 0 16px 16px;
+      color: #c8c8d8;
+      font-size: 14px;
+      line-height: 1.65;
+    }
+    .desc-body strong { color: var(--text); }
+
+    /* ── TABLE ── */
+    .info-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      border-top: 1px solid var(--border);
+      gap: 12px;
+    }
+    .info-row:first-child { border-top: none; }
+    .info-label {
+      color: var(--muted);
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .info-value {
+      font-size: 14px;
+      text-align: right;
+      color: var(--text);
+      font-variant-numeric: tabular-nums;
+    }
+    .compat-pill {
+      background: rgba(52,199,89,0.15);
+      color: #34c759;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+    }
+
+    /* ── CHANGELOG ── */
+    .changelog-entry {
+      padding: 12px 16px;
+      border-top: 1px solid var(--border);
+    }
+    .changelog-entry:first-child { border-top: none; }
+    .changelog-ver {
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--accent);
+    }
+    .changelog-date {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+    .changelog-notes {
+      margin-top: 8px;
+      font-size: 13px;
+      color: #b0b0c0;
+      padding-left: 14px;
+    }
+    .changelog-notes li { margin-bottom: 3px; }
+
+    /* ── FOOTER ── */
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 11px;
+      margin-top: 28px;
+      padding: 0 20px;
+    }
+    .footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <div class="banner-container">
+    <img src="https://mrpewios.github.io/coverimage/mrpewiosrepo.png" alt="Tweak Banner" onerror="this.src='https://via.placeholder.com/800x250/18181c/007AFF?text=MRPEWIOS+REPOSITORY'"/>
+  </div>
+
+  <div class="hero">
+    <div class="hero-icon">📷</div>
+    <div class="hero-info">
+      <h1>CustomCCBg VH (Roothide)</h1>
+      <p>iosdumpzzz</p>
+      <span class="badge">v1.3.0</span>
+    </div>
+  </div>
+
+  <div class="screenshots-wrap">
+    <div class="screenshots">
+      <img src="https://mrpewios.github.io/infodebs/CustomCCBg - Screenshot/1.png" alt="Screenshot 1" />
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Mô tả</div>
+    <div class="desc-body">
+      <strong>CustomCCBg VH</strong> – CustomCCBg Việt hoá.<br /><br />
+      Tuỳ chỉnh trung tâm điều khiển  
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Thông tin</div>
+    <div class="info-row">
+      <span class="info-label">Phiên bản</span>
+      <span class="info-value">0.0.1</span>
+    </div>
+    <div class="info-row">
+      <span class="info-label">Tác giả</span>
+      <span class="info-value">iosdumpzzz</span>
+    </div>
+    <div class="info-row">
+      <span class="info-label">Dung lượng</span>
+      <span class="info-value">388 KB</span>
+    </div>
+    <div class="info-row">
+      <span class="info-label">Ngày đăng tải</span>
+      <span class="info-value">15/06/2026</span>
+    </div>
+    <div class="info-row">
+      <span class="info-label">Tương thích</span>
+      <span class="info-value"><span class="compat-pill">iOS 14 – 17</span></span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">Lịch sử cập nhật</div>
+    <div class="changelog-entry">
+      <div class="changelog-ver">0.0.1</div>
+      <div class="changelog-date">15/06/2026</div>
+      <ul class="changelog-notes">
+        <li>Phát hành lần đầu</li>
+        <li>Hỗ trợ rootless,roothide</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">
+    Copyright © 2026 <a href="#">MrPewiOS</a> CustomCCBg VH
+  </div>
+
+</body>
+</html>
