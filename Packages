@@ -33,3 +33,57 @@ Size: 169656
 MD5sum: 0381b9d73d307bac139f697873f33d4a
 SHA1: e73092d05d3437895cf906141ae28a21f442da85
 SHA256: f8486ed7b958ff4028c74797c0254311810f87f9f522c172e23228c87ff542ec
+
+Package: com.mrpewios.customccbgvh_0.0.1_iphoneos-arm64
+Name: CustomCCBg VH (Rootless)
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Description: Tuỳ chỉnh trung tâm điều  khiển 
+Author: iosdumpzzz
+Maintainer: iosdumpzzz
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 388
+Depiction: https://mrpewios.github.io/depictions/customccbg_less.html
+SileoDepiction: https://mrpewios.github.io/sileodepictions/customccbg_less.json
+Filename: ./debs/com.mrpewios.customccbgvh_0.0.1_iphoneos-arm64.deb
+Size: 47516
+MD5sum: 78e353908e5770d5e97d367a3a3f5544
+SHA1: d65c57fb0d6e77932eebbf8f53711e05a8825ca8
+SHA256: d1cc92f47a45e4bcef32c4692a0c1f3bd167a95458a6faeaad6010f50f93532c
+
+Package: com.mrpewios.customccbgvh_0.0.1_iphoneos-arm64e
+Name: CustomCCbg VH (Roothide)
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Description: Tuỳ chỉnh trung tâm điều  khiển 
+Author: iosdumpzzz
+Maintainer: iosdumpzzz
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 388
+Depiction: https://mrpewios.github.io/depictions/customccbg_hide.html
+SileoDepiction: https://mrpewios.github.io/sileodepictions/customccbg_roothide.json
+Filename: ./debs/com.mrpewios.customccbgvh_0.0.1_iphoneos-arm64e.deb
+Size: 45624
+MD5sum: 8586ff4bdeb9b717fbe6bb636f43bfa5
+SHA1: 214148484ee079b0e067705679bfbbbeefddea67
+SHA256: 013476aa196e228952c8b0fe865ff6eadf419b9cdd744be4f924a5b45c25c473
+
+Package: com.mrpewios.gesturexvvh_1.6_iphoneos-arm64e
+Name: GestureXV VH (Roothide)
+Version: 1.6
+Architecture: iphoneos-arm64e
+Description: Cử chỉ iPhone X cho các dòng đời thấp iOS 15
+Author: Ethan Whited
+Maintainer: Ethan Whited
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 388
+Depiction: https://mrpewios.github.io/depictions/customccbg_hide.html
+SileoDepiction: https://mrpewios.github.io/sileodepictions/customccbg_roothide.json
+Filename: ./debs/com.mrpewios.customccbgvh_0.0.1_iphoneos-arm64e.deb
+Size: 45624
+MD5sum: 8586ff4bdeb9b717fbe6bb636f43bfa5
+SHA1: 214148484ee079b0e067705679bfbbbeefddea67
+SHA256: 013476aa196e228952c8b0fe865ff6eadf419b9cdd744be4f924a5b45c25c473
