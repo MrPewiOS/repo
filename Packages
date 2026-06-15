@@ -79,11 +79,11 @@ Author: Ethan Whited
 Maintainer: Ethan Whited
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Installed-Size: 388
-Depiction: https://mrpewios.github.io/depictions/customccbg_hide.html
-SileoDepiction: https://mrpewios.github.io/sileodepictions/customccbg_roothide.json
-Filename: ./debs/com.mrpewios.customccbgvh_0.0.1_iphoneos-arm64e.deb
-Size: 45624
-MD5sum: 8586ff4bdeb9b717fbe6bb636f43bfa5
-SHA1: 214148484ee079b0e067705679bfbbbeefddea67
-SHA256: 013476aa196e228952c8b0fe865ff6eadf419b9cdd744be4f924a5b45c25c473
+Installed-Size: 2756
+Depiction: https://mrpewios.github.io/depictions/gesturexv.html
+SileoDepiction: https://mrpewios.github.io/sileodepictions/gesturexv.json
+Filename: ./debs/com.mrpewios.gesturexvvh_1.6_iphoneos-arm64e.deb
+Size: 2162828
+MD5sum: 3535b1e214056357d6f6e8f158b64b9c
+SHA1: cb1aa11c1400bc0191f59b8d007d878547529fd0
+SHA256: 9f39069972088bb03e35a61c5256783053130567fd1c77ab2f936a5e22f626e7
